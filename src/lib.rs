@@ -14,6 +14,6 @@ extern {
 }
 
 #[wasm_bindgen]
-pub fn greet() {
-    alert("Hello, wasm-pack-sample!");
+pub fn greet(text: &str) {
+    alert(&format!("Hello, {}!", text));
 }
