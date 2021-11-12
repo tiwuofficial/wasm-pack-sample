@@ -1,7 +1,7 @@
-import init, {greet} from "/pkg/wasm_pack_sample.js";
+import init, {greet2} from "/pkg/wasm_pack_sample.js";
 init().then(() => {
-  window.greet = greet;
+  window.greet2 = greet2;
   console.log('load');
-  window.greet('hello! from js');
+  console.log(window.greet2('hello! from js'));
 });
   

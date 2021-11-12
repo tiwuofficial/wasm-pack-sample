@@ -17,3 +17,8 @@ extern {
 pub fn greet(text: &str) {
     alert(&format!("Hello, {}!", text));
 }
+
+#[wasm_bindgen]
+pub fn greet2(text: &str) -> String {
+  return String::from(format!("Hello, {}!", text));
+}
