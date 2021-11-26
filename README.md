@@ -1,8 +1,13 @@
 # Build
 
-
 ```bash
 wasm-pack build --target web
+```
+
+# Test
+
+```bash
+cargo test
 ```
 
 # Local
