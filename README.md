@@ -10,6 +10,12 @@ wasm-pack build --target web
 cargo test
 ```
 
+# Lint
+
+```bash
+cargo fmt
+```
+
 # Local
 
 ```bash
